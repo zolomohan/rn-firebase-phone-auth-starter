@@ -8,6 +8,7 @@ export default function PhoneNumber() {
     <View style={styles.screen}>
       <Text style={styles.text}>Enter Phone Number</Text>
       <TextInput
+        autoFocus
         style={styles.input}
         value={phoneNumber}
         onChangeText={setPhoneNumber}
